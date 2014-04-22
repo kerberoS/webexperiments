@@ -1,0 +1,285 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	font-family: sans-serif;
+
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 190%;
+	text-align: left;
+	font-size: 13px;
+}
+
+.redTitle
+{
+	color: #d63611;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+#footer, #menu, a
+{
+	color: #FFF;
+	background-color: #7bbcc1;
+}
+
+
+/*********************************************************************************/
+/* header                                                                        */
+/*********************************************************************************/
+
+#topWrapper
+{
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	border-top: 3px solid;
+	border-bottom: 3px solid;
+	border-color: #4b959b;
+	max-height: 122px;
+}
+
+.imageicon {
+	height: 55px;
+	width:  55px;
+	margin-left: 450px;
+    content:url('../img/degreeIcon.png');
+}​
+#header h1
+{
+	color: #d63611;
+	height: 80px;
+	font-size: 24px;
+	padding-right: 400px;
+}
+
+#menu {
+	overflow: hidden;
+	height: 100px;
+
+
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	padding: 0px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 9px;
+	line-height: 38px;
+	border: none;
+	color: #FFF;
+	background-color: #7bbcc1;
+	}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+	background: #1abc9c;
+}
+
+
+
+
+/*********************************************************************************/
+/* page content                                                                   */
+/*********************************************************************************/
+
+#pageWrapper
+{
+	/**background-image: url('../img/background.png'); **/
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+
+#content
+{
+	height: 486px;
+	width: 486px;
+	overflow: hidden;
+	background-color: #f0f8f9;
+	float:left;
+	margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 56px;
+}
+
+
+#sidebar
+{
+	height: 486px;
+	width: 434px;
+	border: 2px solid;
+	border-color: #4b959b;
+	background-color: #f0f8f9;
+	float:right;
+	margin-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 56px;
+}
+.imagelearn
+{
+	height: 200px;
+	width:  200px;
+	float: right;
+	margin-top:-12.5px;
+	margin-right: -12.5px;
+    content:url('../img/learnmore.png');
+}​
+#box2 h2
+{
+	display: inline-block;
+	font-size: 15px;	
+	color: #FFF;
+}
+
+
+
+
+#boxes a
+{
+	text-align: right;
+	display: inline-block;
+	background-color: #f0f8f9;
+	color:#7bbcc1;
+	text-decoration: underline;
+	display:block;
+	margin-top: 38px;
+
+}
+.boxA, .boxB, .boxC
+{
+	height: 105px;
+	width: 265px;
+	border: 2px solid;
+	border-color: #4b959b;
+	overflow: hidden;
+	background-color: #f0f8f9;
+	font-size: 13px;
+}
+
+.boxA, .boxB
+{
+	float:left;
+	margin-right: 59px;
+}
+
+
+
+
+
+
+/*********************************************************************************/
+/* more info                                                                     */
+/*********************************************************************************/
+
+#moreInfo h2
+
+{
+	font-size: 23px;
+	color: #4b959b;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+#moreInfo p
+{
+	font-size: 15px;
+}
+
+
+/*********************************************************************************/
+/* footer                                                                        */
+/*********************************************************************************/
+
+#footer
+{
+	height: 100px;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	overflow: hidden;
+}
+#footerElements
+{
+	width: 950px;
+	height: 135px;
+	margin: 0 auto 0 auto;
+	font-size: 13px;
+	overflow: hidden;
+
+}
+#footerGrants
+{
+	height: 64px;
+	width: 274px;
+	float:left;
+	border-right: 1px solid;
+	border-color: #FFF;
+	margin-top: 20px;
+	position:absolute;
+	overflow: hidden;
+}
+#footerGrants h2
+{
+	text-align: center;	
+	padding-top: 20px;
+	padding-right: 0px;
+	font-size: 20pt;
+}
+#footerLinks
+{
+	position: relative;
+	float: right;
+	margin-top: 20px;
+	margin-right: 25px;
+}
+
+
+
+
+
