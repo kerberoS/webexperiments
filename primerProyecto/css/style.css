@@ -241,7 +241,7 @@ a img {
 
 }
 
-#form input
+#field1, #field2, #field3
 {
 	width: 90%;
 	margin: -3px auto 2px 5%;
@@ -268,11 +268,11 @@ margin-top: 220px;
 }
 
 
-button
+#btn
 {
 	width: 90%;
 	text-align:center;
-	margin: -10px auto -10px 5%;
+	margin: 10px auto -5px 5%;
 	height: 44px;
 	border: none;
 	background-color:#d63611;
@@ -327,7 +327,7 @@ button
 .boxA, .boxB
 {
 	float:left;
-	margin-right: 67px;
+	margin-right: 65px;
 }
 
 .boxA div, .boxB div, .boxC div
