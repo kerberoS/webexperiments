@@ -14,7 +14,6 @@
 					<div id="header" class="container">
 						<div id="logo">
 							<div class="imageicon"></div>​
-							<h1 class="redTitle">GRANTS AVAILABLE</h1>
 						</div>
 					</div>
 				</div>
@@ -32,12 +31,14 @@
 			</div>
 			<!-- end top -->
 
-	
+			<div id="background"></div>	
 			<div id="pageWrapper" class="container">
+
+
 
 				<div id="content">
 					<div class="title">
-						<h2>Exploring Options?</h2>
+						<h1>Exploring Options?</h2>
 						<h2>Think you can't afford it?</h2>
 						<h3>Grant programs financial assistance to those who qualify.</h3>
 					</div>
@@ -50,25 +51,36 @@
 			   		factors could help you qualify for these programs.</p>	
 				</div>
 
+
 				<div id="sidebar">
 
-					<div class="imagelearn"></div>​
 
 					<div class="box2">
-						<div class="title">
-						<h2>Discover Your Options</h2>
-						<span> Fill out the basic information below to begin exploring your option</span>
+						<div>
+							<h2>Discover Your Options</h2>
+							<span> Fill out the basic information below to begin exploring your option</span>
+							<div class="imagelearn"></div>​
+					</div>
+
+					<div id="form">
+						<form id="formbox" action="" name="theForm" onsubmit="return(validate());">
+							<span id="firstSpan"> First Name </span>
+							<input type="text" name="firstName"value="" placeholder="">
+							<span> Last Name</span>
+							<input type="text" name="lastName"value="" placeholder="">
+							<span>Email</span>
+							<input type="text" name="email"value="" placeholder="">
+						</form>
+						<button class="center">Continue...</button>
+
+						<p>
+							By signing up, you agree to our Privacy Policy and Terms of Use, which
+							includes adding your email address to our mailing list and receiving newsletters.
+						</p>
+	
 					</div>
 				
-						<ul class="style2">
-							<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-							<li><a href="#">Ornare in hendrerit in lectus</a></li>
-							<li><a href="#">Semper mod quis eget mi dolore</a></li>
-							<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-							<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-							<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-							<li><a href="#">Consequat etiam lorem phasellus</a></li>
-						</ul>
+					
 				</div>
 			</div>
 		
@@ -76,19 +88,27 @@
 
 			<div id="boxes">
 				<div class="boxA">
-					<h3 class="redTitle">Grants</h3>
-					<span>Learn weather or not you qualify for a grant or financial aid.</span>
-					<a href="#">Learn more.</a>
+					<div>
+						<h3 class="redTitle">Grants</h3>
+						<span>Learn weather or not you qualify for a grant or financial aid.</span>
+						<a href="#">Learn more.</a>
+					</div>
+					
 				</div>
 				<div class="boxB">
-					<h3 class="redTitle">Types of Aid</h3>
-					<span>Match your interests and education goals with the best degree program for you.</span>
-					<a href="">Learn more.</a>
+					<div>
+						<h3 class="redTitle">Types of Aid</h3>
+						<span>Match your interests and education goals with the best degree program for you.</span>
+						<a href="">Learn more.</a>
+					</div>
 				</div>
 				<div class="boxC">
-					<h3 class="redTitle">Prepare for College</h3>
-					<span>Browse our site to find the degree and career that will be the most rewarding for you!</span>
-					<a href="">Learn more</a>
+					<div>
+						<h3 class="redTitle">Prepare for College</h3>
+						<span>Browse our site to find the degree and career that will be the most rewarding for you!</span>
+						<a href="">Learn more</a>
+					</div>
+					
 				</div>
 			</div>
 
@@ -125,6 +145,16 @@
 			
 
 		</div>
+
+
+
+		<!--
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				alert("hello world");
+			})
+		</script>  -->
 
 		
 	</body>

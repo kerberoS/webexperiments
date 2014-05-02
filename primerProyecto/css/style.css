@@ -25,11 +25,6 @@ p {
 	font-size: 13px;
 }
 
-.redTitle
-{
-	color: #d63611;
-}
-
 a {
 	color: #FFF;
 	text-decoration: none;
@@ -43,7 +38,7 @@ a img {
 	border: none;
 }
 
-#footer, #menu, a
+#footer, a
 {
 	color: #FFF;
 	background-color: #7bbcc1;
@@ -63,28 +58,25 @@ a img {
 	border-top: 3px solid;
 	border-bottom: 3px solid;
 	border-color: #4b959b;
-	max-height: 122px;
+	height: 122px;
 }
 
 .imageicon {
-	height: 55px;
-	width:  55px;
-	margin-left: 450px;
-    content:url('../img/degreeIcon.png');
+
+    content:url('../img/grantsLogo.png');
+    margin: 19px auto 0 auto;
 }​
-#header h1
-{
-	color: #d63611;
-	height: 80px;
-	font-size: 24px;
-	padding-right: 400px;
-}
 
 #menu {
-	overflow: hidden;
 	height: 100px;
+	margin-bottom: -30px;
 
 
+}
+
+.redTitle
+{
+	color:#d63611;
 }
 
 #menu ul {
@@ -98,6 +90,7 @@ a img {
 
 #menu li {
 	display: inline-block;
+
 }
 
 #menu a {
@@ -106,7 +99,7 @@ a img {
 	padding: 0px 20px;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 9px;
+	font-size: 15px;
 	line-height: 38px;
 	border: none;
 	color: #FFF;
@@ -134,51 +127,175 @@ a img {
 	width: 960px;
 	margin: 0 auto;
 	position: relative;
+	overflow: hidden;
 	
+}
+
+#background{
+	content:url('../img/background.png');
+	z-index: -10;
+	position:absolute;
+	margin: 0 auto 0 -285px;
+
 }
 
 
 #content
 {
 	height: 486px;
-	width: 486px;
-	overflow: hidden;
+	width: 420px;	
 	background-color: #f0f8f9;
 	float:left;
 	margin-left: 10px;
 	margin-top: 30px;
 	margin-bottom: 56px;
+	z-index:10;
+	background-color: rgba(0, 0, 0, 0)
+}
+
+.title h1{
+	padding-left: 20px;
+	padding-top: 35px;
+	font-size: 40px;
+	color:#424a57;
+}
+
+.title h2{
+	text-align: right;
+	margin: 10px -27px 20px 0px;
+	font-size: 30px;
+	color:#d63611;
+}
+
+.title h3{
+
+	font-size: 18px;
+	color:#424a57;
+	text-align: center;
+	margin: 30px auto 32px 25px;
+
 }
 
 
+/*********************************************************************************/
+/* form box                                                                  */
+/*********************************************************************************/
+
 #sidebar
 {
-	height: 486px;
+	height: 482px;
 	width: 434px;
 	border: 2px solid;
 	border-color: #4b959b;
-	background-color: #f0f8f9;
+	background-color: #f9fbfb;
 	float:right;
 	margin-right: 20px;
 	margin-top: 30px;
 	margin-bottom: 56px;
+	z-index: 10;
+
 }
 .imagelearn
 {
-	height: 200px;
-	width:  200px;
+	height: 180px;
+	width:  180px;
 	float: right;
-	margin-top:-12.5px;
+	margin-top:-91px;
 	margin-right: -12.5px;
+	z-index: 0;
     content:url('../img/learnmore.png');
 }​
-#box2 h2
+
+.box2
 {
-	display: inline-block;
-	font-size: 15px;	
-	color: #FFF;
+	height: 107px;
+	margin-top: -11px;
+}
+.box2 span
+{
+	font-size: 16px;	
+	color: #797e86;
+	margin-left:22px;
+	width: 303px;
+	display:inline-block;
+	margin-top: 5px;
 }
 
+.box2 h2 
+{
+	font-size: 24px;	
+	color: #424a57;
+	margin-left:20px;
+	margin-top: 10px;
+}
+
+#form
+{	
+
+	height: 365px;
+	border-top: 2px solid;
+	border-color: #4b959b;
+	margin-top: 35px;
+	background-color: #FFF;
+	overflow:visible;
+
+}
+
+#form input
+{
+	width: 90%;
+	margin: -3px auto 2px 5%;
+	height: 43px;
+	box-shadow: inset 0px 5px 5px 0px #fbfbfb;
+}
+
+#firstSpan
+{
+margin-top: 220px;	
+}
+#formbox
+{
+	margin-top:-200px;
+}
+
+#form span 
+{
+	color:#d63611;
+	font-size: 20px;
+	margin-left: 5%;
+	margin-bottom: 10px;
+
+}
+
+
+button
+{
+	width: 90%;
+	text-align:center;
+	margin: -10px auto -10px 5%;
+	height: 44px;
+	border: none;
+	background-color:#d63611;
+	color: #fff;
+	font-size: 18px;
+}
+#form p
+{
+	font-size: 8px;
+	text-align: center;
+	color:#bababa;
+	width: 90%;
+	margin: 5% auto 10px 5%;
+	z-index:-1;
+}
+
+
+
+
+
+/*********************************************************************************/
+/* three boxes                                                                   */
+/*********************************************************************************/
 
 
 
@@ -190,9 +307,11 @@ a img {
 	color:#7bbcc1;
 	text-decoration: underline;
 	display:block;
-	margin-top: 38px;
+	margin-top: 25px;
+	margin-bottom: 10px;
 
 }
+
 .boxA, .boxB, .boxC
 {
 	height: 105px;
@@ -201,13 +320,19 @@ a img {
 	border-color: #4b959b;
 	overflow: hidden;
 	background-color: #f0f8f9;
-	font-size: 13px;
+	font-size: 12px;
+	
 }
 
 .boxA, .boxB
 {
 	float:left;
-	margin-right: 59px;
+	margin-right: 67px;
+}
+
+.boxA div, .boxB div, .boxC div
+{
+	margin: 10px;
 }
 
 
@@ -226,10 +351,12 @@ a img {
 	color: #4b959b;
 	margin-top: 30px;
 	margin-bottom: 10px;
+	margin: 20px 14px auto 14px;
 }
 #moreInfo p
 {
 	font-size: 15px;
+	margin: 20px 14px 20px 14px;
 }
 
 
