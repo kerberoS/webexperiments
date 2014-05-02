@@ -150,8 +150,38 @@
 
 	
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript" src="../js/validation.js"></script>
- 
+		<script type="text/javascript">
+
+
+		   function validate()
+		   {
+		   		var valid = true,
+   			    errorMessage = "";
+
+  			    if ($('#field1').val() == '') 
+  			    {
+       			errorMessage  = "please enter your name \n";
+       			valid = false;
+    			}
+
+    			if ($('#field2').val() == '') 
+    			{
+       			errorMessage += "please enter your address\n";
+       			valid = false;
+   			    }    
+
+    			if ($('#field3').val() == '') 
+    			{
+       			errorMessage += "please enter your email\n";
+       			valid = false;
+    			}
+
+  				if( !valid && errorMessage.length > 0)
+  				{
+       				alert(errorMessage);
+    			}	  
+		   }
+		</script> 
 
 		
 	</body>
